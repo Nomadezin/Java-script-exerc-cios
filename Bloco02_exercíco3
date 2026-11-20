@@ -1,0 +1,9 @@
+//Leia o valor de um produto e o percentual de desconto. Mostre desconto e preço final.
+let preco = Number(prompt("Digite o preço:"));
+let desconto = Number(prompt("Digite o percentual do desconto:"));
+
+let valordesconto = (preco*desconto)/100
+let precofinal = preco - valordesconto;
+
+console.log("O valor do desconto é:", valordesconto);
+console.log("O preço final é:", precofinal);
