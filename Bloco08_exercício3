@@ -1,0 +1,28 @@
+
+function linha() {
+    console.log("------------------------------");
+}
+
+// Programa principal
+let nota1 = Number(prompt("Digite a primeira nota:"));
+let nota2 = Number(prompt("Digite a segunda nota:"));
+
+let media = (nota1 + nota2) / 2;
+
+linha();
+console.log("BOLETIM ESCOLAR");
+linha();
+
+console.log("Nota 1:", nota1);
+console.log("Nota 2:", nota2);
+console.log("Média:", media);
+
+linha();
+
+if (media >= 6) {
+    console.log("Aprovado!");
+} else {
+    console.log("Recuperação!");
+}
+
+linha();
