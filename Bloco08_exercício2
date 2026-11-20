@@ -1,0 +1,15 @@
+
+function verificarPar(numero) {
+    if (numero % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Programa principal
+let numero = Number(prompt("Digite um número inteiro:"));
+
+let resultado = verificarPar(numero);
+
+console.log(resultado);
