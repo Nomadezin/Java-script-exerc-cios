@@ -1,0 +1,10 @@
+//Leia largura e comprimento de um retângulo e informe a área e o perímetro.
+
+let largura = Number(prompt("Digite a Largura:"));
+let comprimento = Number(prompt("Digite o comprimento"));
+
+let area = largura*comprmento;
+let perimetro = (largura+comprimento)*2;
+
+console.log("A área é:", area);
+console.log("O perímetro é:", perimetro);
