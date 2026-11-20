@@ -1,0 +1,18 @@
+
+let vetor1 = [];
+let vetor2 = [];
+let vetor3 = [];
+
+for (let i = 0; i < 5; i++) {
+    vetor1[i] = Number(prompt("Digite um número para o primeiro vetor:"));
+}
+
+for (let i = 0; i < 5; i++) {
+    vetor2[i] = Number(prompt("Digite um número para o segundo vetor:"));
+}
+
+for (let i = 0; i < 5; i++) {
+    vetor3[i] = vetor1[i] + vetor2[i];
+}
+
+console.log("Resultado:", vetor3);
