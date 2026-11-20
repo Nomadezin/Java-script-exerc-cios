@@ -1,0 +1,19 @@
+//Leia idade e sexo de varias pessoas. Encerre quando a idade digitada for 0. Informe a quantidade de maiores de idade.
+
+let contador = 0;
+let idade = 1;
+
+while (idade !== 0) {
+
+    idade = Number(prompt("Digite sua idade:"));
+
+    if (idade !== 0) {
+        let sexo = prompt("Digite seu sexo:");
+
+        if (idade >= 18) {
+            contador++;
+        }
+    }
+}
+
+console.log("Quantidade de maiores de idade:", contador);
