@@ -1,0 +1,15 @@
+//Leia uma senha e permita no máximo três tentativas para acertar a senha 2026.
+
+let senha = "";
+let tentativas = 0;
+
+while (senha !== "2026" && tentativas < 3) {
+    senha = prompt("Digite a senha:");
+    tentativas++;
+}
+
+if (senha === "2026") {
+    console.log("Senha correta! Acesso permitido.");
+} else {
+    console.log("Você excedeu o limite de tentativas.");
+}
