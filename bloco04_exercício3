@@ -1,0 +1,14 @@
+//Leia o ano de nascimento e o ano atual. Informe a categoria: infantil até 10 anos, juvenil de 11 a 17 e adulto a partir de 18.
+
+let nascimento = Number(prompt("Digite seu ano de nascimento:"));
+let anoAtual = Number(prompt("Digite o ano atual:"));
+
+let idade = anoAtual - nascimento;
+
+if (idade <= 10) {
+    console.log("Categoria: Infantil");
+} else if (idade <= 17) {
+    console.log("Categoria: Juvenil");
+} else {
+    console.log("Categoria: Adulto");
+}
