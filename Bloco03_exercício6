@@ -1,0 +1,9 @@
+//Leia a senha numérica. Se for 1234, mostre Acesso permitido; senão, Acesso negado.
+
+let senha = Number(prompt("Digite sua senha numérica:"));
+
+if (senha === 1234) {
+    console.log("Acesso permitido!");
+} else {
+    console.log("Acesso negado!");
+}1
