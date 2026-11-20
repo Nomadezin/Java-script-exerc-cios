@@ -1,0 +1,16 @@
+
+function maiorNumero(num1, num2) {
+    if (num1 > num2) {
+        return num1;
+    } else {
+        return num2;
+    }
+}
+
+// Programa principal
+let numero1 = Number(prompt("Digite o primeiro número:"));
+let numero2 = Number(prompt("Digite o segundo número:"));
+
+let resultado = maiorNumero(numero1, numero2);
+
+console.log("O maior número é:", resultado);
