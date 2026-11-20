@@ -1,0 +1,9 @@
+//Leia um número N e some todos os múltiplos de 3 entre 1 e N.
+
+let N = Number(prompt("Digite um número:"));
+
+for (let i = 0; i <= N; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
