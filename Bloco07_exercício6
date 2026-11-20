@@ -1,0 +1,17 @@
+
+let matriz = [];
+let soma = 0;
+
+for (let i = 0; i < 3; i++) {
+    matriz[i] = [];
+
+    for (let j = 0; j < 3; j++) {
+        matriz[i][j] = Number(prompt("Digite um número:"));
+    }
+}
+
+for (let i = 0; i < 3; i++) {
+    soma += matriz[i][i];
+}
+
+console.log("Soma da diagonal principal:", soma);
