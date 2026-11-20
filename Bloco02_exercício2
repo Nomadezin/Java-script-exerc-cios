@@ -1,0 +1,8 @@
+//Leia tres notas e calcule a media aritmetica.
+let nota1 = Number(prompt("Digite a sua primeira nota:"));
+let nota2 = Number(prompt("Digite a sua segunda nota:"));
+let nota3 = Number(prompt("Digite sua terceira nota:"));
+
+let soma = (nota1+nota2+nota3)/3;
+
+console.log("Sua média final é:", soma);
