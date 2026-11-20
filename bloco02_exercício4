@@ -1,0 +1,9 @@
+//Leia o salário e o percentual de reajuste. Mostre o novo salário.
+let salario = Number(prompt("Digite seu salário:"));
+let reajuste = Number(prompt("Digite o percentual de reajuste:"));
+
+let aumento = (salario * reajuste) / 100;
+let novoSalario = salario + aumento;
+
+console.log("Valor do aumento:", aumento);
+console.log("Novo salário:", novoSalario);
