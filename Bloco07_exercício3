@@ -1,0 +1,21 @@
+
+let notas = [];
+let soma = 0;
+let quantidade = 0;
+
+for (let i = 0; i < 8; i++) {
+    let nota = Number(prompt("Digite uma nota:"));
+    notas.push(nota);
+    soma += nota;
+}
+
+let media = soma / 8;
+
+for (let i = 0; i < 8; i++) {
+    if (notas[i] >= media) {
+        quantidade++;
+    }
+}
+
+console.log("Média:", media);
+console.log("Notas maiores ou iguais à média:", quantidade);
