@@ -1,0 +1,20 @@
+
+let numeros = [];
+
+for (let i = 0; i < 10; i++) {
+    let numero = Number(prompt("Digite um número:"));
+    numeros.push(numero);
+}
+
+let maior = numeros[0];
+let posicao = 0;
+
+for (let i = 0; i < 10; i++) {
+    if (numeros[i] > maior) {
+        maior = numeros[i];
+        posicao = i;
+    }
+}
+
+console.log("Maior número:", maior);
+console.log("Posição:", posicao);
