@@ -1,0 +1,11 @@
+//Leia a idade e informe se a pessoa pode votar: entre 16 e 17 anos ou a partir de 18 anos.
+
+let idade = Number(prompt("Digite sua idade:"));
+
+if (idade >= 18) {
+    console.log("Pode votar. Voto obrigatório!");
+} else if (idade >= 16 && idade <= 17) {
+    console.log("Pode votar. Voto facultativo!");
+} else {
+    console.log("Não pode votar!");
+}
