@@ -1,0 +1,6 @@
+//Leia a temperatura em Celsius e converta para Fahrenheit.
+let celsius = Number(prompt("Digite a temperatura celsius"));
+
+let fahrenheit = (celsius *18)+32;
+
+console.log("A temperatura em fahrenheit é:", fahrenheit);
