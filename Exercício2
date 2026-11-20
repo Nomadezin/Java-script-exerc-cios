@@ -1,0 +1,10 @@
+//Leia dois números reais e mostre a subtração do primeiro pelo segundo.
+
+
+let num1 = Number(prompt("Digite o primeiro numero:"));
+
+let num2 = Number(prompt("Digite o segundo numero:"));
+
+let subtracao = num1 - num2;
+
+console.log("A subtração é:", subtracao);
